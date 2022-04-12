@@ -1,0 +1,11 @@
+.cubo{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+}
+
+.desaparecer {
+   display: none;
+   transition: display 4s ease-in;
+
+}
