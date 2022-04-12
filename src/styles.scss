@@ -2,3 +2,78 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+body{
+    background-color: #F4F5F8;
+}
+
+section{
+    display: flex;
+    min-height: 80vh;
+    background: linear-gradient(135deg, #0a0a0a, #181818, #0a0a0a);
+
+}
+@media only screen and (max-width: 1299px) {
+    section{
+        min-height: 70vh;
+    }
+}
+@media only screen and (max-width: 1040px) {
+    section{
+        min-height: 60vh;
+    }
+}
+@media only screen and (max-width: 840px) {
+    section{
+        min-height: 55vh;
+    }
+}
+@media only screen and (max-width: 767px) {
+    section{
+        min-height: 100vh;
+    }
+}
+@media only screen and (max-width: 630px) {
+    section{
+        min-height: 87vh;
+    }
+}
+@media only screen and (max-width: 520px) {
+    section{
+        min-height: 70vh;
+    }
+}
+.frente{
+    position: absolute !important;
+    z-index: 10;
+}
+section i
+{
+    position: absolute; 
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 70px #fff;
+    animation: animate linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+    }
+    10%
+    {
+        opacity: 1;
+    }
+    90%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
+}

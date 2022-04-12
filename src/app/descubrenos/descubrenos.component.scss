@@ -1,11 +1,87 @@
-.cubo{
-   width: 100%;
-   height: 100vh;
-   position: relative;
+.text-home{
+    width: 60%;
+    text-align: center !important;
+    margin-left: 26%;
+}
+@media only screen and (max-width: 1199px) {
+    .text-home{
+        width: 90%;
+        margin-left: 15%;
+        text-align: center !important;;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .text-home{
+        width: 70%;
+        margin-left: 15%;
+        text-align: center !important;;
+    }
 }
 
-.desaparecer {
-   display: none;
-   transition: display 4s ease-in;
+.cuadrado-home{
+    width: 50%;
+}
+@media only screen and (max-width: 1199px) {
+    .cuadrado-home{
+        width: 70%;
+    }
+}
 
+.text-p{
+    margin-left: 25%;
+}
+@media only screen and (max-width: 1199px) {
+    .text-p{
+        margin-left: 15%;
+        margin-right: 13%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .text-p{
+        text-align: center !important;
+        margin-left: 15%;
+        margin-right: 13%;
+    }
+}
+
+.bg-card{
+    background:
+	linear-gradient(180deg, #091633, #000000);
+    border-radius: 10px;
+}
+
+.texto-animado{
+    animation: floating 5s ease-in-out infinite !important;
+}
+@keyframes floating {
+    0%, 100%{
+        transform: translate(0,-20px);
+    }
+    50%{
+        transform: translate(0,20px);
+    }
+}
+.margin-negative{
+     margin-top: -5% !important;
+     padding-top: 9%;
+}
+
+@media only screen and (max-width: 1680px){
+    .margin-negative{
+        margin-top: -7% !important;
+        padding-top: 12%;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .margin-negative{
+        margin-top: 0 !important;
+        padding-top: 4%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .margin-negative{
+        margin-top: 0 !important;
+        padding-top: 7%;
+    }
 }
