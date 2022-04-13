@@ -11,6 +11,7 @@ section{
     display: flex;
     min-height: 80vh;
     background: linear-gradient(135deg, #0a0a0a, #181818, #0a0a0a);
+    z-index: -20;
 
 }
 @media only screen and (max-width: 1299px) {
@@ -46,6 +47,9 @@ section{
 .frente{
     position: absolute !important;
     z-index: 10;
+}
+.frente2{
+    z-index: 20;
 }
 section i
 {
