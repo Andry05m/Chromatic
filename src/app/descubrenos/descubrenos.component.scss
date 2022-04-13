@@ -12,8 +12,15 @@
 }
 @media only screen and (max-width: 767px) {
     .text-home{
-        width: 70%;
-        margin-left: 15%;
+        width: 50%;
+        margin-left: 25%;
+        text-align: center !important;;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .text-home{
+        width: 60%;
+        margin-left: 20%;
         text-align: center !important;;
     }
 }
@@ -26,6 +33,16 @@
         width: 70%;
     }
 }
+@media only screen and (max-width: 767px) {
+    .cuadrado-home{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .cuadrado-home{
+        width: 60%;
+    }
+}
 
 .text-p{
     margin-left: 25%;
@@ -36,18 +53,17 @@
         margin-right: 13%;
     }
 }
+@media only screen and (max-width: 767px) {
+    .text-p{
+        margin-left: 21%;
+    }
+}
 @media only screen and (max-width: 500px) {
     .text-p{
         text-align: center !important;
         margin-left: 15%;
         margin-right: 13%;
     }
-}
-
-.bg-card{
-    background:
-	linear-gradient(180deg, #091633, #000000);
-    border-radius: 10px;
 }
 
 .texto-animado{
@@ -62,26 +78,17 @@
     }
 }
 .margin-negative{
-     margin-top: -5% !important;
+     margin-top: 0% !important;
      padding-top: 9%;
-}
-
-@media only screen and (max-width: 1680px){
-    .margin-negative{
-        margin-top: -7% !important;
-        padding-top: 12%;
-    }
 }
 
 @media only screen and (max-width: 1199px){
     .margin-negative{
-        margin-top: 0 !important;
-        padding-top: 4%;
+        padding-top: 20%;
     }
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 600px){
     .margin-negative{
-        margin-top: 0 !important;
-        padding-top: 7%;
+        padding-top: 25%;
     }
 }

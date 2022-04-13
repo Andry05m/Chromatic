@@ -5,51 +5,24 @@
 
 body{
     background-color: #F4F5F8;
+    overflow-x: hidden;
 }
 
 section{
-    display: flex;
-    min-height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100vw;
+    background-size: cover;
     background: linear-gradient(135deg, #0a0a0a, #181818, #0a0a0a);
-    z-index: -20;
+    background-position: 50% 50%;
+    display: block;
 
-}
-@media only screen and (max-width: 1299px) {
-    section{
-        min-height: 70vh;
-    }
-}
-@media only screen and (max-width: 1040px) {
-    section{
-        min-height: 60vh;
-    }
-}
-@media only screen and (max-width: 840px) {
-    section{
-        min-height: 55vh;
-    }
-}
-@media only screen and (max-width: 767px) {
-    section{
-        min-height: 100vh;
-    }
-}
-@media only screen and (max-width: 630px) {
-    section{
-        min-height: 87vh;
-    }
-}
-@media only screen and (max-width: 520px) {
-    section{
-        min-height: 70vh;
-    }
 }
 .frente{
     position: absolute !important;
     z-index: 10;
-}
-.frente2{
-    z-index: 20;
 }
 section i
 {
