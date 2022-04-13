@@ -4,53 +4,6 @@
 @import '~bootstrap/scss/bootstrap';
 
 body{
-    background-color: #F4F5F8;
+    background-color: #191a1d;
     overflow-x: hidden;
-}
-
-section{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 90%;
-    width: 100vw;
-    background-size: cover;
-    background: linear-gradient(135deg, #0a0a0a, #181818, #0a0a0a);
-    background-position: 50% 50%;
-    display: block;
-
-}
-.frente{
-    position: absolute !important;
-    z-index: 10;
-}
-section i
-{
-    position: absolute; 
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #fff,
-    0 0 70px #fff;
-    animation: animate linear infinite;
-}
-@keyframes animate
-{
-    0%
-    {
-        opacity: 0;
-    }
-    10%
-    {
-        opacity: 1;
-    }
-    90%
-    {
-        opacity: 1;
-    }
-    100%
-    {
-        opacity: 0;
-    }
 }

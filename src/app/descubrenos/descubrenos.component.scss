@@ -12,15 +12,8 @@
 }
 @media only screen and (max-width: 767px) {
     .text-home{
-        width: 50%;
-        margin-left: 25%;
-        text-align: center !important;;
-    }
-}
-@media only screen and (max-width: 650px) {
-    .text-home{
-        width: 60%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 15%;
         text-align: center !important;;
     }
 }
@@ -33,16 +26,6 @@
         width: 70%;
     }
 }
-@media only screen and (max-width: 767px) {
-    .cuadrado-home{
-        width: 40%;
-    }
-}
-@media only screen and (max-width: 650px) {
-    .cuadrado-home{
-        width: 60%;
-    }
-}
 
 .text-p{
     margin-left: 25%;
@@ -53,11 +36,6 @@
         margin-right: 13%;
     }
 }
-@media only screen and (max-width: 767px) {
-    .text-p{
-        margin-left: 21%;
-    }
-}
 @media only screen and (max-width: 500px) {
     .text-p{
         text-align: center !important;
@@ -66,8 +44,15 @@
     }
 }
 
+.bg-card{
+    background:
+	linear-gradient(180deg, #091633, #000000);
+    border-radius: 10px;
+}
+
 .texto-animado{
     animation: floating 5s ease-in-out infinite !important;
+    padding-top: 3%;
 }
 @keyframes floating {
     0%, 100%{
@@ -75,20 +60,5 @@
     }
     50%{
         transform: translate(0,20px);
-    }
-}
-.margin-negative{
-     margin-top: 0% !important;
-     padding-top: 9%;
-}
-
-@media only screen and (max-width: 1199px){
-    .margin-negative{
-        padding-top: 20%;
-    }
-}
-@media only screen and (max-width: 600px){
-    .margin-negative{
-        padding-top: 25%;
     }
 }
