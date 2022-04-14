@@ -1,46 +1,9 @@
-.text-home{
-    width: 60%;
-    text-align: center !important;
-    margin-left: 26%;
-}
-@media only screen and (max-width: 1199px) {
-    .text-home{
-        width: 90%;
-        margin-left: 15%;
-        text-align: center !important;;
-    }
-}
-@media only screen and (max-width: 767px) {
-    .text-home{
-        width: 70%;
-        margin-left: 15%;
-        text-align: center !important;;
-    }
-}
-
 .cuadrado-home{
     width: 50%;
 }
 @media only screen and (max-width: 1199px) {
     .cuadrado-home{
         width: 70%;
-    }
-}
-
-.text-p{
-    margin-left: 25%;
-}
-@media only screen and (max-width: 1199px) {
-    .text-p{
-        margin-left: 15%;
-        margin-right: 13%;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .text-p{
-        text-align: center !important;
-        margin-left: 15%;
-        margin-right: 13%;
     }
 }
 
@@ -61,4 +24,20 @@
     50%{
         transform: translate(0,20px);
     }
+}
+.planet{
+    width: 20em;
+    height: 20em;
+    background: url(../../assets/mercury.jpg);
+    box-shadow:
+        inset -3em -3em 4em #000,
+        inset 0.5em 0.5em 2em  #000,
+        -0.5em -0.5em 2em rgba(80, 80, 80, 0.438);
+    animation: rotate 10s linear infinite;
+    border-radius: 50%;
+    background-repeat: repeat;
+    background-size: 200% 100%;
+}
+@keyframes rotate {
+    to{ background-position:  -200% 0;}
 }
