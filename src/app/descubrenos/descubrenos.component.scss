@@ -1,43 +1,89 @@
-.cuadrado-home{
-    width: 50%;
+.divisor{
+  width: 100vw !important;
+  height: 100vh !important;
 }
-@media only screen and (max-width: 1199px) {
-    .cuadrado-home{
-        width: 70%;
-    }
+@media screen and (max-width: 1750px){
+  .divisor{
+    width: 100% !important;
+    height: 100% !important;
+}
+}
+/* Primer carrousel*/
+.texto-carrousel{
+    position: absolute;
+    padding-top: 22%;
+    margin-left: 15%;
+    color: #242424;
+    text-align: left;
 }
 
-.bg-card{
-    background:
-	linear-gradient(180deg, #091633, #000000);
-    border-radius: 10px;
+.titulocc{
+    color: #b2b3b4;
+    font-size: calc(0.5rem + 1.31vw);
+    margin-bottom: -1%;
 }
 
-.texto-animado{
-    animation: floating 5s ease-in-out infinite !important;
-    padding-top: 3%;
+.agencia{
+    font-size: calc(0.5rem + 3.5vw);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
-@keyframes floating {
-    0%, 100%{
-        transform: translate(0,-20px);
+
+/* fallback for IE */
+.color-agencia {
+    color: red;
+  }
+  /* gradient text for modern browsers */
+  @supports (background-clip: text) {
+    .color-agencia {
+      background-image: linear-gradient(60deg, #c00f36, #680d25);
+      background-clip: text;
+      color: transparent;
     }
-    50%{
-        transform: translate(0,20px);
+  }
+
+/* fallback for IE */
+  .color-barra {
+    color: blue;
+  }
+  /* gradient text for modern browsers */
+  @supports (background-clip: text) {
+    .color-barra {
+      background-image: linear-gradient(60deg, #2a8ac4, #1b387f);
+      background-clip: text;
+      color: transparent;
+      font-weight: 600;
     }
+  }
+  
+.ptitulo{
+  font-size: calc(0.5rem + 0.9vw);
+  margin-top: -1%;
+  line-height: 135%;
 }
-.planet{
-    width: 20em;
-    height: 20em;
-    background: url(../../assets/mercury.jpg);
-    box-shadow:
-        inset -3em -3em 4em #000,
-        inset 0.5em 0.5em 2em  #000,
-        -0.5em -0.5em 2em rgba(80, 80, 80, 0.438);
-    animation: rotate 10s linear infinite;
-    border-radius: 50%;
-    background-repeat: repeat;
-    background-size: 200% 100%;
+.flecha{
+  color: #757575 !important;
+  font-size: 40px;
 }
-@keyframes rotate {
-    to{ background-position:  -200% 0;}
+
+/*Segun Carrousel*/
+.texto-carrousel2{
+  position: absolute;
+  padding-top: 23%;
+  padding-left: 25%;
+  padding-right: 25%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.agencia2{
+  font-size: calc(0.6rem + 3.5vw);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.ptitulo2{
+font-size: calc(0.6rem + 0.9vw);
+margin-top: -1%;
+line-height: 135%;
 }
