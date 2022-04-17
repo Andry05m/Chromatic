@@ -9,12 +9,15 @@
 }
 }
 /* Primer carrousel*/
-.texto-carrousel{
-    position: absolute;
-    margin-top: 22%;
-    margin-left: 15%;
-    color: #242424;
-    text-align: left;
+.carousel-caption{
+    right: 0% !important;
+    bottom: 0% !important;
+    left: 0% !important;
+    padding-top: 22% !important;
+    padding-bottom: 20% !important;
+    padding-left: 15% !important;
+    color: #242424 !important;
+    text-align: left !important;
 }
 
 .titulocc{
@@ -67,13 +70,17 @@
 }
 
 /*Segun Carrousel*/
-.texto-carrousel2{
+.carousel-caption2{
   position: absolute;
-  margin-top: 23%;
-  margin-left: 25%;
-  margin-right: 25%;
+  right: 0% !important;
+  bottom: 0% !important;
+  left: 0% !important;
+  padding-top: 23% !important;
+  margin-bottom: 20% !important;
+  padding-left: 20% !important;
+  padding-right: 20% !important;
   color: #ffffff;
-  text-align: center;
+  text-align: center !important;
 }
 
 .agencia2{
