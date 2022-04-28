@@ -9,6 +9,7 @@ import { DescubrenosComponent } from './descubrenos/descubrenos.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { Error404Component } from './error404/error404.component';
+import { VentanasComponent } from './ventanas/ventanas.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { Error404Component } from './error404/error404.component';
     DescubrenosComponent,
     ProyectosComponent,
     ContactoComponent,
-    Error404Component
+    Error404Component,
+    VentanasComponent
   ],
   imports: [
     BrowserModule,

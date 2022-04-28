@@ -1,4 +1,4 @@
-.divisor{
+/* .divisor{
   width: 100vw !important;
   height: 100vh !important;
 }
@@ -7,7 +7,7 @@
     width: 100% !important;
     height: 100% !important;
 }
-}
+} */
 /* Primer carrousel*/
 .carousel-caption{
     right: 0% !important;
@@ -87,4 +87,19 @@ margin-top: -1%;
 line-height: 135%;
 text-align: center;
 color: #ffff;
+}
+
+.fondo2{
+  background: url(../../assets/Fondo-home.png) no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.card-tittle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: calc(0.5rem + 2.5vw);
+}
+.card-prueba{
+  margin-top: 9% !important;
 }
