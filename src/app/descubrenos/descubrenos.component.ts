@@ -9,6 +9,8 @@ export class DescubrenosComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit():void{}
+  ngOnInit():void{
+    
+  }
 
 }
