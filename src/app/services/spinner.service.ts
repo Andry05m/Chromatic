@@ -12,8 +12,8 @@ export class SpinnerService {
     this.spinner.show();
 
     setTimeout(() => {
-      /** spinner ends after 5 seconds */
+      /** spinner ends after 4,5 seconds */
       this.spinner.hide();
-    }, 5000);
+    }, 4500);
   }
 }
