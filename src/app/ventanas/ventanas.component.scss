@@ -104,7 +104,7 @@
     opacity: 0.5;
 }
 .bg-prueba button{
-  background: #2623d4 !important;
+  background: var(--blue-cc3) !important;
 }
 .card-css .content .details .actionBtn{
     display: flex;
@@ -117,7 +117,7 @@
     outline: none;
     font-size: calc(0.7em + 0.1vh);
     font-weight: 500;
-    background: #d40040;
+    background: var(--red-cc1);
     color: #fff;
     cursor: pointer;
 }
@@ -168,4 +168,16 @@
       background-position-x: calc(var(--size) * (var(--frames) * -1 + 1));
     }
   }
+}
+
+.btn-cc{
+  background-color: var(--red-cc1);
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btn-cc:hover{
+  background-color: var(--blue-cc3);
+  transition: 1s;
+  border-radius: 20px;
 }

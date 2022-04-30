@@ -3,18 +3,33 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+:root {
+  --size: 40px;
+  --frames: 62;
+   /* Colores */
+   /* Azules */
+   --blue-cc1: #2a8ac4;
+   --blue-cc2: #1a68ad;
+   --blue-cc3: #1b387f;
+   --blue-cc4: #15315e;
+   /* Rojos */
+   --red-cc1: #a50f36;
+   --red-cc2: #990e2f;
+   --red-cc3: #820f2a;
+   --red-cc4: #680d25;
+
+   /* Backgrounds */
+   --white-cc:#f4f5f8;
+   --dark-cc: #131118;
+}
+
 /* ESTILOS GENERALES */
 body{
-    background-color: #f4f5f8 !important;
+    background-color: var(--white-cc) !important;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
-
-:root {
-    --size: 40px;
-    --frames: 62;
-  }
 
 /* Importando Fuentes */
 
