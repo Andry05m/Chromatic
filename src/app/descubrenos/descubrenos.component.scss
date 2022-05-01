@@ -33,34 +33,6 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
-
-/* fallback for IE */
-.color-agencia {
-    color: red;
-  }
-  /* gradient text for modern browsers */
-  @supports (background-clip: text) {
-    .color-agencia {
-      background-image: linear-gradient(60deg, #c00f36, #680d25);
-      background-clip: text;
-      color: transparent;
-    }
-  }
-
-/* fallback for IE */
-  .color-barra {
-    color: blue;
-  }
-  /* gradient text for modern browsers */
-  @supports (background-clip: text) {
-    .color-barra {
-      background-image: linear-gradient(60deg, #2a8ac4, #1b387f);
-      background-clip: text;
-      color: transparent;
-      font-weight: 600;
-    }
-  }
-  
 .ptitulo{
   font-size: calc(0.5rem + 0.9vw);
   margin-top: -1%;
@@ -92,4 +64,30 @@ color: #ffff;
   background: url(../../assets/Fondo-home.png) no-repeat;
   width: 100%;
   height: auto;
+}
+.text-t1{
+  font-size: 4rem;
+}
+@media only screen and (max-width: 800px) {
+  .text-t1{
+    font-size: 2rem;
+  }
+}
+.text-t2{
+  font-size: 3rem;
+}
+@media only screen and (max-width: 800px) {
+  .text-t2{
+    font-size: 1.5rem;
+  }
+}
+
+.fondo-3{
+  height: 100vh;
+}
+.texto-3{
+  padding-left: 5%;
+  padding-top: 1%;
+  color: #77777f;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))
 }
